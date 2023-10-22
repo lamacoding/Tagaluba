@@ -1,0 +1,35 @@
+* {
+    color: rgb(40, 49, 62);
+}
+
+body {
+    background-image: url("assets/pexels-nick-collins-3006340.jpg");
+}
+
+.bg-primary {
+    background-color: #FFAEBC !important;
+}
+header {
+    font-family: 'Comic Neue', cursive;
+}
+
+a{
+    font-size: 1.5em;
+}
+
+.navbar-brand {
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.main-heading {
+    font-size: 4em;
+}
+
+.heading-highlight {
+    background-color: red;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
