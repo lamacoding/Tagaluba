@@ -44,7 +44,7 @@ a {
 
 .card.highlights {
     background-color: rgba(255,255,255,.5);
-    border: 6px solid rgb(238, 203, 7);
+    border: 6px dotted rgb(238, 203, 7);
 }
 
 .card.prices {
@@ -67,5 +67,9 @@ a {
 
 .contact-bg {
     background-color: rgb(0, 223, 162);
-    height: 1000px;
+}
+
+#map {
+    text-align: center;
+    margin: 30px auto;
 }
