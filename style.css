@@ -3,17 +3,19 @@
 }
 
 body {
-    background-image: url("assets/pexels-nick-collins-3006340.jpg");
+    padding-top: 80px;
+}
+
+h1, h2 {
+    font-family: 'Amatic SC', sans-serif;
 }
 
 .bg-primary {
-    background-color: #FFAEBC !important;
-}
-header {
-    font-family: 'Comic Neue', cursive;
+    background-color: #F6FDC3 !important;
 }
 
-a{
+
+a {
     font-size: 1.5em;
 }
 
@@ -28,8 +30,42 @@ a{
 }
 
 .heading-highlight {
-    background-color: red;
+    background: rgb(85,134,255);
+    background: linear-gradient(129deg, rgba(85,134,255,1) 0%, rgba(210,70,233,1) 100%); 
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+}
+
+.card {
+    border-radius: 20px;
+    transition: .6s;
+}
+
+.card.highlights {
+    background-color: rgba(255,255,255,.5);
+    border: 6px solid rgb(238, 203, 7);
+}
+
+.card.prices {
+    background-color: rgba(255,255,255,.5);
+    border: 6px solid rgb(0, 121, 255);
+}
+
+.card:hover {
+    transform: scale(1.02) rotateZ(3deg);
+    z-index: 1;
+}
+
+.card img {
+    border-radius: 0px;
+}
+
+.highlights-bg {
+    background-color: rgb(246, 250, 112);
+}
+
+.contact-bg {
+    background-color: rgb(0, 223, 162);
+    height: 1000px;
 }

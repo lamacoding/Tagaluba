@@ -13,17 +13,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Comic+Neue&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Tilt+Neon&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body data-bs-theme="light">
-    <div class="bg-body w-100">
+    <div class="w-100" id="top">
       <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar fixed-top navbar-expand-lg bg-body">
           <div class="container-fluid">
-            <a class="navbar-brand ms-3" href="#">Tagaluba</a>
+            <a class="navbar-brand ms-3" href="#top">Tagaluba</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -38,81 +38,201 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mx-auto">
                 <li class="nav-item mx-2">
-                  <a class="nav-link active" href="index.html">Startseite</a>
+                  <a class="nav-link active" href="#top">Start</a>
                 </li>
                 <li class="nav-item mx-2">
-                  <a class="nav-link" href="#">Kindergeburtstag</a>
+                  <a class="nav-link" href="#highlights-item">Highlights</a>
                 </li>
                 <li class="nav-item mx-2">
-                  <a class="nav-link" href="#">Preise</a>
+                  <a class="nav-link" href="#prices-item">Preise</a>
                 </li>
                 <li class="nav-item mx-2">
-                  <a class="nav-link" href="#">Kontakt und Anfahrt</a>
+                  <a class="nav-link" href="#contact-item"
+                    >Kontakt und Anfahrt</a
+                  >
                 </li>
               </ul>
             </div>
           </div>
         </nav>
+        <div class="bg-body text-center my-5">
+          <h1 class="main-heading">
+            Willkommen im<br /><span class="heading-highlight"
+              >Tagaluba Abenteuerland</span
+            >
+          </h1>
+          <h3 class="lead">
+            Riesenspaß bei jedem Wetter! Den erlebt man in Oberösterreichs
+            größtem Indoor-Spielplatz.<br />Ein einzigartiger Freizeitpark für
+            die ganze Familie.
+          </h3>
+        </div>
       </header>
 
-      <div>
-        <h1 class="main-heading">
-          Willkommen im<br /><span class="heading-highlight"
-            >Tagaluba Abenteuerland</span
-          >
-        </h1>
-      </div>
+      <!-- Highlights -->
+      <div
+        class="row justify-content-center py-5 highlights-bg"
+        id="highlights-item"
+      >
+        <h2 class="text-center">Highlights</h2>
+        <div class="col-xl-3">
+          <div class="card highlights m-4">
+            <img
+              src="assets/pexels-susanne-jutzeler-sujufoto-1271816.jpg"
+              class="card-img-top pt-4"
+              alt="Child playing with a wooden wheel"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kletterturm</h5>
+              <p class="card-text">
+                Hier können Kinder ihre Abenteuerlust ausleben und ihre Grenzen
+                erkunden.<br /><br />Der Turm bietet nicht nur eine aufregende
+                körperliche Herausforderung, sondern fördert auch das
+                Selbstvertrauen und den Teamgeist der kleinen Kletterer.
+              </p>
+            </div>
+          </div>
+        </div>
 
-      <div class="card-group m-5">
-        <div class="card" style="background-color: #fadcd9">
-          <img
-            src="assets/pexels-anete-lusina-5239936.jpg"
-            class="card-img-top p-2"
-            alt="Child playing with a wooden wheel"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Highlights</h5>
-            <p class="card-text">
-              Auf 3.000m² regieren Abwechslung und Unterhaltung für jedes Alter.
-              Das Einzige, was es hier nicht gibt, ist Langeweile.
-            </p>
+        <div class="col-xl-3">
+          <div class="card highlights m-4">
+            <img
+              src="assets/pexels-vlada-karpovich-7100335.jpg"
+              class="card-img-top pt-4"
+              alt="Mehrere Kinder vor einer Geburtstagstorte"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kindergeburtstage</h5>
+              <p class="card-text">
+                Wir verwandeln jeden Geburtstag in ein unvergessliches
+                Abenteuer, das Kinder und Eltern gleichermaßen begeistert.<br /><br />Mit
+                spannenden Spielen, köstlichen Leckereien und einer fröhlichen
+                Atmosphäre sorgen wir dafür, dass der große Tag für das
+                Geburtstagskind und seine Freunde etwas ganz Besonderes wird.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="card" style="background-color: #fadcd9">
-          <img
-            src="assets/pexels-anete-lusina-5239929.jpg"
-            class="card-img-top p-2"
-            alt="Child playing with a wooden wheel"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Highlights</h5>
-            <p class="card-text">
-              Auf 3.000m² regieren Abwechslung und Unterhaltung für jedes Alter.
-              Das Einzige, was es hier nicht gibt, ist Langeweile.
-            </p>
-          </div>
-        </div>
-        <div class="card" style="background-color: #fadcd9">
-          <img
-            src="assets/pexels-allan-mas-5623747.jpg"
-            class="card-img-top p-2"
-            alt="Child playing with a wooden wheel"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Highlights</h5>
-            <p class="card-text">
-              Auf 3.000m² regieren Abwechslung und Unterhaltung für jedes Alter.
-              Das Einzige, was es hier nicht gibt, ist Langeweile.
-            </p>
+
+        <div class="col-xl-3">
+          <div class="card highlights m-4">
+            <img
+              src="assets/pexels-alena-darmel-7751052.jpg"
+              class="card-img-top pt-4"
+              alt="Mädchen mit riesigen Lego Bausteinen"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Riesen Bausteine</h5>
+              <p class="card-text">
+                Mit ihrer imposanten Größe und leuchtenden Farben sind sie nicht
+                nur ein Blickfang, sondern auch die ideale Spielgelegenheit für
+                kreative Köpfe.<br /><br />Kinder können ihre Fantasie voll
+                ausleben und dabei motorische Fähigkeiten entwickeln, während
+                sie riesige Burgen, Fahrzeuge und fantastische Welten
+                erschaffen.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Preise row 1 -->
+    <div class="row justify-content-center py-5 bg-body" id="prices-item">
+      <h2 class="text-center">Preise</h2>
+      <div class="col-xl-2">
+        <div class="card prices m-4">
+          <div class="card-body">
+            <h5 class="card-title">Kinder unter 1 Jahr</h5>
+            <p class="card-text">Gratis!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-2">
+        <div class="card prices m-4">
+          <div class="card-body">
+            <h5 class="card-title">Kinder von 1-3 Jahren</h5>
+            <p class="card-text">€ 5,90</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-2">
+        <div class="card prices m-4">
+          <div class="card-body">
+            <h5 class="card-title">Kinder von 4-18 Jahren</h5>
+            <p class="card-text">€ 11,90</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-2">
+        <div class="card prices m-4">
+          <div class="card-body">
+            <h5 class="card-title">Erwachsene</h5>
+            <p class="card-text">€ 6,20</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Preise row 2 -->
+    <div class="row justify-content-center py-5 bg-body">
+      <div class="col-xl-2">
+        <div class="card prices m-4">
+          <div class="card-body">
+            <h5 class="card-title">Gruppenpreis ab 20 Kindern</h5>
+            <p class="card-text">€ 8,90 pro Person</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-2">
+        <div class="card prices m-4">
+          <div class="card-body">
+            <h5 class="card-title">Kindergeburtstag</h5>
+            <p class="card-text">€ 17,90 pro Kind</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center py-5 contact-bg" id="contact-item">
+      <h2 class="text-center">Kontakt und Anfahrt</h2>
+      <p>
+        TAGALUBA - Abenteuerland Hörsching Poststrasse 4a 4063 Hörsching
+        Telefonnummer: 0681 / 102 66 070
+      </p>
+    </div>
+
+    <footer>
+        Impressum
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const targetId = this.getAttribute("href").substring(1);
+          const targetElement = document.getElementById(targetId);
+
+          if (targetElement) {
+            const offset = 80;
+            const targetPosition = targetElement.offsetTop - offset;
+
+            window.scrollTo({
+              top: targetPosition,
+              behavior: "smooth", // Use 'auto' for instant scroll
+            });
+          }
+        });
+      });
+    </script>
   </body>
 </html>
